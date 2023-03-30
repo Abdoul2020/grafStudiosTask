@@ -9,10 +9,28 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/material": "^5.11.15",
+    "@react-google-maps/api": "^2.18.1",
+    "cp-react-horizontal-datepicker": "^1.0.4",
+    "dayjs": "^1.11.7",
     "eslint": "8.36.0",
     "eslint-config-next": "13.2.4",
-    "next": "13.2.4",
+    "flowbite": "^1.6.4",
+    "flowbite-react": "^0.4.2",
+    "next": "12.2.2",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-google-maps": "^9.4.5",
+    "react-horizontal-strip-datepicker": "^3.0.2",
+    "react-icons": "^4.8.0",
+    "react-sticky-box": "^2.0.0",
+    "sass": "^1.60.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7"
   }
 }
