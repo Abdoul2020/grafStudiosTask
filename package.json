@@ -13,7 +13,6 @@
     "@emotion/styled": "^11.10.6",
     "@mui/material": "^5.11.15",
     "@react-google-maps/api": "^2.18.1",
-    "cp-react-horizontal-datepicker": "^1.0.4",
     "dayjs": "^1.11.7",
     "eslint": "8.36.0",
     "eslint-config-next": "13.2.4",
