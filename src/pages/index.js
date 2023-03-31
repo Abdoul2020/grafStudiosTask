@@ -306,8 +306,6 @@ const nextBtn = (id) => {
 
   setclickpanelProfil(id)
 
- 
-  
 
   allFindResult.map((s, i) =>
         s.orderid == id && indexes< generateDate(today.month(), today.year()).length - 1 ?
@@ -768,12 +766,13 @@ const nextBtn = (id) => {
 
 
 
+
     {generateDate(today.month(), today.year()).map(
 						({ date, currentMonth, today }, index) => {
 							return (
 
-                <th scope="col" className="px-6 py-3" key={index}
-                className="text-sm  text-center " style={{ display: clickpanelProfil===i && indexes >= index  ? "none" : "" }}>
+                <th scope="col"  key={index}
+                className="text-sm  text-center px-6 py-3" style={{ display: clickpanelProfil===i && indexes >= index  ? "none" : "" }}>
             
               <span>
                 {date.toDate().toLocaleDateString('tr-TR', {weekday: 'short'})}
@@ -781,6 +780,7 @@ const nextBtn = (id) => {
            
           <div>
           <span>
+
 
 {date.date()}
 
@@ -909,7 +909,7 @@ return(
 
      
 
-<div className="" onClick={()=>OpenMore(i)} className="mb-6">
+<div  onClick={()=>OpenMore(i)} className="mb-6">
 <Typography variant="subtitle2" className="text-[#43eaa9] underline cursor-pointer">
 
   {
